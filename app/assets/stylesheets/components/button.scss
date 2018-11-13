@@ -1,0 +1,20 @@
+/*Composant bouton*/
+
+.btn-blue {
+	background-color: #008CBA; /* Blue */
+    border-color: #008CBA;
+    border-radius: 8px;
+    color: white;
+    max-height: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	float:left;
+}
+
+.btn-blue:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

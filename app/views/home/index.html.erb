@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<% title "Kimpembe" %>
+	<link rel="stylesheet" href="basic2.css">
+</head>
+<body>
+<div class="container">
+	<!-- Container pour nav bar -->
+	<nav class="nav-bar">
+		<div class="navbar-logo"><%= image_tag "logo.png", class:"logo", alt:"PSG" %></div>
+		<div class="navbar-right">
+			<ul>
+				<li><a href="http://www.leparisien.fr/val-d-oise-95/eragny-sur-oise-presnel-kimpembe-fete-sa-victoire-a-domicile-30-08-2018-7870293.php">Maison</a></li>
+				<li><a href="http://www.lefigaro.fr/musique/2018/07/13/03006-20180713ARTFIG00159-l-enceinte-de-presnel-kimpembe-dj-improvise-des-bleus-a-enfin-sa-playlist-sur-spotify.php" >Enceinte</a></li>
+				<li><a href="https://www.youtube.com/results?search_query=presnel+kimpembe" >Matchs</a></li>
+			</ul>
+		</div>
+		<div class="navdroit">
+			<ul>
+				<li>Prénom: Presnel</br>Nom: Kimpembe</li>
+				<li><%= image_tag "champion.png", class:"avatar", alt:"Presnel coupe monde" %></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Container pour page principale -->
+	<main>
+		<h1>My name is... Presnel!</h1>
+	<!-- Container partie gauche -->
+		<div class="bigpicture">
+			<h2>Jeune parisien</h2>
+			<%= image_tag "petit.png", class:"imgjeune", alt:"Presnel jeune" %>
+		</div>
+
+	<!-- Container partie droite -->
+		<div class="description">
+			<h2>Une vie à Paris</h2>
+			<p>Cliquer ci-dessous pour en savoir plus sur Presnel.</p>
+	<!-- Tabs links & content -->
+			<div class="tab">
+				<button class="tablinks" onclick="openChapter(event, 'Etat civil')">Etat civil</button>
+				<button class="tablinks" onclick="openChapter(event, 'Profession')">Profession</button>
+				<button class="tablinks" onclick="openChapter(event, 'Palmarès')">Palmarès</button>
+			</div>
+			<div id="Etat civil" class="tabcontent">
+				<h3>Etat civil</h3>
+				<p>Presnel Kimpembe naît le 13 août 1995 à Beaumont-sur-Oise d'un père congolais et d'une mère haïtienne.</p>
+			</div>
+			<div id="Profession" class="tabcontent">
+				<h3>Profession</h3>
+				<p>Arrivé au PSG en 2005, il devient professionnel en 2014 au poste de défenseur central. Son style rugueux et technique à la fois en fait l'archétype du défenseur moderne.</p> 
+			</div>
+			<div id="Palmarès" class="tabcontent">
+				<h3>Palmarès</h3>
+				<p>Triple champion de France (2015, 2016, 2018). Triple vainqueur de la coupe de France (2016, 2017, 2018). Triple vainqueur de la coupe de la Ligue (2016, 2017, 2018).</p>
+				<p>CHAMPION DU MOOOOOOOOONDE 2018.</p>
+			</div>
+		</div>
+
+	<!-- Container partie basse avec les composants -->
+		<div class="biography">
+			<h2>Dans le détail</h2>
+			<p>Biographie détaillée avec force bullets points et liens.</p>
+			<div class="funstuff">
+				<button type="button" class="btn-blue">Click here for more info</button> 
+				<div class="card">
+					<%= image_tag "img_avatar.png", alt:"Avatar", style:"width:100%" %>
+					<h4><b>Son père</b></h4> 
+					<p>Architecte</p> 
+				</div>
+				<div class="card">
+					<%= image_tag "img_avatar2.png", alt:"Avatar", style:"width:100%" %>
+					<h4><b>Sa mère</b></h4> 
+					<p>Ingénieur</p> 
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- Container pour footer -->
+	<footer>
+		<p>Made in Les Bleus</p>
+		<ul>
+			<li><a href="https://www.instagram.com/kimpembe3/?hl=fr">Instagram</a></li>			
+			<li><a href="https://twitter.com/kimpembe_3?lang=fr">Twitter</a></li>
+			<li><a href="https://fr-fr.facebook.com/presnelkimpembeofficial/">Facebook</a></li>
+		</ul>
+	</footer>
+</div>
+
+</body>
+</html>

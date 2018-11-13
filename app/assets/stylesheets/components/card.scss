@@ -1,0 +1,15 @@
+/*Composant card*/
+.card {
+/* Add shadows to create the "card" effect and some padding */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:20%;
+    padding: 2px 16px;
+	float:left;
+	border-radius: 5px;
+	margin:5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

@@ -1,0 +1,103 @@
+@import "components/*"; 
+
+/*Pour le Body et le container global*/
+body {
+	background-image: url("fondpage.png");
+	/* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Nice Font*/
+	font-family: American Typewriter, serif;
+}
+
+.container {
+	background-color: lightgrey;
+	opacity: 0.8;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Pour le container main et ses différents containers*/
+main {
+	padding: 10px;
+}
+
+.bigpicture {
+	width: 260px;
+	margin:10px;
+	background-color: grey;
+	float: left;
+	padding: 10px;
+}
+
+.imgjeune {
+	width: 150px;
+	height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Container pour les composants et les composants*/
+.biography {
+	width: 940px;
+	margin: 10px;
+	background-color: grey;
+	float:left;
+	padding: 10px;
+}
+
+.funstuff {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*Pour le container Footer*/
+footer {
+	clear: both;
+	height: 50px;
+	background-color: darkgrey;
+	padding: 2px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer ul {
+	display: flex; 
+	flex-direction : row; 
+	justify-content: flex-end; 
+}
+
+footer li {
+	margin-left:30px;
+}
+
+/*Pour tous les éléments*/
+h1 {
+	text-align: center;
+	margin: 10px;
+	font-size: 3em;
+}
+
+h2 {
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}

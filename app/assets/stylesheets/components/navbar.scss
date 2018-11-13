@@ -1,0 +1,43 @@
+/*Pour la nav bar*/
+
+.nav-bar {
+	width: 996px;	
+	height: 55px;
+	padding: 2px;
+	background-color: darkgrey;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.nav-bar ul {
+	display: flex; 
+	margin:0;
+	flex-direction : row; 	
+}
+
+.nav-bar li {
+	margin-left:30px;
+}
+
+.navbar-logo {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-right{
+	display: flex;
+	align-items: center;
+}
+
+.navdroit {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
